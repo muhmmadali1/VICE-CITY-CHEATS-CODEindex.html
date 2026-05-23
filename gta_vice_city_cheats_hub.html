@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate GTA Vice City Cheats Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f0c29; }
+        .neon-text { text-shadow: 0 0 10px #ff00de, 0 0 20px #ff00de; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .cheat-row:hover { background: rgba(255, 255, 255, 0.15); cursor: pointer; transform: scale(1.02); transition: 0.2s; }
+    </style>
+</head>
+<body class="text-white min-h-screen p-4 md:p-8">
+
+    <header class="max-w-7xl mx-auto text-center mb-12">
+        <h1 class="text-5xl md:text-8xl font-black italic neon-text uppercase tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400">Vice City</h1>
+        <p class="text-gray-300 mt-4 text-xl">The Complete Master Database - All Cheats Added</p>
+    </header>
+
+    <main id="cheatContainer" class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Health & Armor -->
+        <div class="glass p-6 rounded-2xl cheat-card">
+            <h2 class="text-xl font-bold mb-4 text-pink-400 flex items-center">❤️ Health & Armor</h2>
+            <div class="space-y-2">
+                <div class="cheat-row flex justify-between p-3 rounded bg-white/5" onclick="copyCheat('ASPIRINE')"><span>Full Health</span> <span class="font-mono text-cyan-300">ASPIRINE</span></div>
+                <div class="cheat-row flex justify-between p-3 rounded bg-white/5" onclick="copyCheat('PRECIOUSPROTECTION')"><span>Full Armor</span> <span class="font-mono text-cyan-300">PRECIOUSPROTECTION</span></div>
+                <div class="cheat-row flex justify-between p-3 rounded bg-white/5" onclick="copyCheat('ICANTTAKEITANYMORE')"><span>Suicide</span> <span class="font-mono text-cyan-300">ICANTTAKEITANYMORE</span></div>
+            </div>
+        </div>
+
+        <!-- Weapons -->
+        <div class="glass p-6 rounded-2xl cheat-card">
+            <h2 class="text-xl font-bold mb-4 text-cyan-400 flex items-center">🔫 Weapon Sets</h2>
+            <div class="space-y-2">
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('THUGSTOOLS')"><span>Thug Tools</span> <span class="font-mono text-pink-300">THUGSTOOLS</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('PROFESSIONALTOOLS')"><span>Pro Tools</span> <span class="font-mono text-pink-300">PROFESSIONALTOOLS</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('NUTTERTOOLS')"><span>Nutter Tools</span> <span class="font-mono text-pink-300">NUTTERTOOLS</span></div>
+            </div>
+        </div>
+
+        <!-- Spawn Vehicles -->
+        <div class="glass p-6 rounded-2xl cheat-card">
+            <h2 class="text-xl font-bold mb-4 text-yellow-400 flex items-center">🚗 Spawn Vehicles</h2>
+            <div class="space-y-2 text-sm">
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('PANZER')"><span>Tank</span> <span class="font-mono">PANZER</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('TRAVELINSTYLE')"><span>Bloodring</span> <span class="font-mono">TRAVELINSTYLE</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('GETTHEREVERYFASTINDEED')"><span>Hotring 1</span> <span class="font-mono">GETTHEREVERYFASTINDEED</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('GETTHEREAMAZINGLYFAST')"><span>Hotring 2</span> <span class="font-mono">GETTHEREAMAZINGLYFAST</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('RUBBISHCAR')"><span>Trashmaster</span> <span class="font-mono">RUBBISHCAR</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('GETTHEREFAST')"><span>Sabre Turbo</span> <span class="font-mono">GETTHEREFAST</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('ROCKANDROLLCAR')"><span>Limousine</span> <span class="font-mono">ROCKANDROLLCAR</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('THELASTRIDE')"><span>Romero Hearse</span> <span class="font-mono">THELASTRIDE</span></div>
+                <div class="cheat-row flex justify-between p-1.5 rounded bg-white/5" onclick="copyCheat('BETTERTHANWALKING')"><span>Caddy</span> <span class="font-mono">BETTERTHANWALKING</span></div>
+            </div>
+        </div>
+
+        <!-- Vehicle Modifiers -->
+        <div class="glass p-6 rounded-2xl cheat-card">
+            <h2 class="text-xl font-bold mb-4 text-orange-400 flex items-center">🛠️ Vehicle Mods</h2>
+            <div class="space-y-2 text-sm">
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('SEAWAYS')"><span>Cars on Water</span> <span class="font-mono">SEAWAYS</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('COMEFLYWITHME')"><span>Flying Cars</span> <span class="font-mono">COMEFLYWITHME</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('BIGBANG')"><span>Explode All Cars</span> <span class="font-mono">BIGBANG</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('WHEELSAREALLINEED')"><span>Invisible Wheels</span> <span class="font-mono">WHEELSAREALLINEED</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('LOADSOFLITTLETHINGS')"><span>Big Wheels</span> <span class="font-mono">LOADSOFLITTLETHINGS</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('AHAIRDRESSERSCAR')"><span>Pink Traffic</span> <span class="font-mono">AHAIRDRESSERSCAR</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('IWANTITPAINTEDBLACK')"><span>Black Traffic</span> <span class="font-mono">IWANTITPAINTEDBLACK</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('GRIPISEVERYTHING')"><span>Perfect Handling</span> <span class="font-mono">GRIPISEVERYTHING</span></div>
+            </div>
+        </div>
+
+        <!-- Gameplay Mechanics -->
+        <div class="glass p-6 rounded-2xl cheat-card">
+            <h2 class="text-xl font-bold mb-4 text-green-400 flex items-center">🎮 Gameplay</h2>
+            <div class="space-y-2 text-sm">
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('YOUWONTTAKEMEALIVE')"><span>Raise Wanted</span> <span class="font-mono">YOUWONTTAKEMEALIVE</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('LEAVEMEALONE')"><span>Clear Wanted</span> <span class="font-mono">LEAVEMEALONE</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('CHASESTAT')"><span>Media Level</span> <span class="font-mono">CHASESTAT</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('LIFEISPASSINGMEBY')"><span>Fast Time</span> <span class="font-mono">LIFEISPASSINGMEBY</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('CHICKSWITHGUNS')"><span>Girls w/ Guns</span> <span class="font-mono">CHICKSWITHGUNS</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('FANNYMAGNET')"><span>Women Follow</span> <span class="font-mono">FANNYMAGNET</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('CERTAINDEATH')"><span>Smoking</span> <span class="font-mono">CERTAINDEATH</span></div>
+            </div>
+        </div>
+
+        <!-- Weather & Peds -->
+        <div class="glass p-6 rounded-2xl cheat-card">
+            <h2 class="text-xl font-bold mb-4 text-blue-400 flex items-center">☀️ Weather & Peds</h2>
+            <div class="space-y-2 text-sm">
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('ALOVELYDAY')"><span>Sunny</span> <span class="font-mono">ALOVELYDAY</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('CATSANDDOGS')"><span>Stormy</span> <span class="font-mono">CATSANDDOGS</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('NOBODYLIKESME')"><span>Peds Attack</span> <span class="font-mono">NOBODYLIKESME</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('OURGODGIVENRIGHTTOBEARARMS')"><span>Peds Have Guns</span> <span class="font-mono">OURGODGIVENRIGHTTOBEARARMS</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('FIGHTFIGHTFIGHT')"><span>Peds Riot</span> <span class="font-mono">FIGHTFIGHTFIGHT</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('MIAMITRAFFIC')"><span>Aggressive Traf</span> <span class="font-mono">MIAMITRAFFIC</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('GREENLIGHT')"><span>Green Lights</span> <span class="font-mono">GREENLIGHT</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('HOPINGIRL')"><span>Peds Enter Car</span> <span class="font-mono">HOPINGIRL</span></div>
+            </div>
+        </div>
+
+        <!-- Character Look Changers -->
+        <div class="glass p-6 rounded-2xl cheat-card">
+            <h2 class="text-xl font-bold mb-4 text-purple-400 flex items-center">👕 Character Looks</h2>
+            <div class="space-y-2 text-sm">
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('STILLLIKEDRESSINGUP')"><span>Random Outfit</span> <span class="font-mono">STILLLIKEDRESSINGUP</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('LOOKLIKELANCE')"><span>Lance Vance</span> <span class="font-mono">LOOKLIKELANCE</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('MYSONISALAWYER')"><span>Ken Rosenberg</span> <span class="font-mono">MYSONISALAWYER</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('LOOKFULLBEATENUP')"><span>Ricardo Diaz</span> <span class="font-mono">LOOKFULLBEATENUP</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('FOXYLITTLETHING')"><span>Mercedes</span> <span class="font-mono">FOXYLITTLETHING</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('WELOVEOURDICK')"><span>Love Fist</span> <span class="font-mono">WELOVEOURDICK</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('ONEARMEDBANDIT')"><span>Phil Cassidy</span> <span class="font-mono">ONEARMEDBANDIT</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('ROCKANDROLLMAN')"><span>Jezz Torent</span> <span class="font-mono">ROCKANDROLLMAN</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('IDONTHAVETHEMONEYSONNY')"><span>Sonny Forelli</span> <span class="font-mono">IDONTHAVETHEMONEYSONNY</span></div>
+                <div class="cheat-row flex justify-between p-2 rounded bg-white/5" onclick="copyCheat('PROGRAMMER')"><span>Fat Guy</span> <span class="font-mono">PROGRAMMER</span></div>
+            </div>
+        </div>
+
+    </main>
+
+    <div id="toast" class="fixed bottom-10 left-1/2 -translate-x-1/2 bg-pink-600 text-white px-6 py-3 rounded-full shadow-lg hidden font-bold">
+        Copied to clipboard!
+    </div>
+
+    <footer class="max-w-7xl mx-auto mt-12 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Ultimate Vice City Cheats Hub | Tap any cheat to copy instantly!</p>
+    </footer>
+
+    <script>
+        function copyCheat(code) {
+            const textArea = document.createElement("textarea");
+            textArea.value = code;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textArea);
+
+            const toast = document.getElementById('toast');
+            toast.classList.remove('hidden');
+            setTimeout(() => toast.classList.add('hidden'), 2000);
+        }
+    </script>
+</body>
+</html>
